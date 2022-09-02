@@ -1,6 +1,6 @@
 ---
-title: "Company Research"
-author: "Daniel Lee"
+title: "Week 2: Applications 1 (Company Research)"
+author: "Place your name here"
 date: "2022-08-30"
 output: html_document
 ---
@@ -15,4 +15,4 @@ State the name of your company.
 
 ## Characteristics of the company
 
-Describe the company. Find the company information from the Nexis Uni database. Include characteristics such as the number of employees, sales revenues, product lines, and the industry.
+Describe the company in at least 50 words. Find the company information from the Nexis Uni database. Include characteristics such as the number of employees, sales revenues, product lines, and the industry.

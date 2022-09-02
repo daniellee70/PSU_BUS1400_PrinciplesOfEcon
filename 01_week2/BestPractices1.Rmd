@@ -1,6 +1,6 @@
 ---
-title: "Businomics Chapter 1 It's not just about forecasting"
-author: "Daniel Lee"
+title: "Week 2: Best Practices 1"
+author: "Place your name here"
 date: "2022-08-30"
 output: html_document
 ---
@@ -9,10 +9,17 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Chapter 1 Better Decisions Through Economics
+Chapter 1 It's Not Just about Forecasting
 
-What is the major takeaway for you? Write a paragraph.
+The following are the key points in the chapter. Elaborate on each point in at least 30 words.
 
-## Chapter 2 It's Not Just about Forecasting
+* Understanding economics can help you to diagnose the causes of increases or decreases in sales volumes and costs. 
+    * *Place your words here.*
+* Business decisions are about the future and must rely on a view of the future.
+    * *Place your words here.*
+* Economics can help you form a more accurate vision of the future, compared to other common methods of forecasting.
+    * *Place your words here.*
+* As a business manager, you should focus more on the broad magnitudes of changes rather than specific numbers.
+    * *Place your words here.*
 
-What is the major takeaway for you? Write a paragraph.
+

@@ -1,0 +1,18 @@
+---
+title: "Test publishing"
+author: "Your name here"
+date: "2022-09-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Do your work here.
+
+```{r}
+library(tidyverse)
+mpg
+```
+

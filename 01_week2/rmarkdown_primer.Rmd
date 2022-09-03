@@ -1,0 +1,185 @@
+---
+title: "Communication with RMarkdown"
+output:
+  html_document: 
+    df_print: "paged"
+    anchor_sections: TRUE
+    code_folding: "show"
+    highlight: tango
+    number_sections: yes
+    theme: 
+        bootswatch: flatly
+    toc: yes
+    toc_depth: 2
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+always_allow_html: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    echo = TRUE,
+    eval = TRUE,
+    message = FALSE,
+    warning = FALSE,
+    fig.align = "center"
+    )
+
+# See Options: knitr::opts_chunk$get()
+```
+
+```{r, echo=FALSE}
+
+# eval = FALSE (Show code, but don't run, no output)
+# echo = FALSE (Don't show code, but run, show output)
+# results = "hide" (Show code, and run, but don't show output)
+
+# Load Libraries
+library(tidyverse)
+library(tidyquant)
+library(plotly)
+```
+
+# Footnotes
+
+This is some text with a Footnote[^1]. This is a second Footnote[^2].
+
+[^1]: Citation for Footnote 1
+
+[^2]: Citatin for Footnote 2
+
+## What can RMarkdown be used for?
+
+1.  [HTML Reports](https://bookdown.org/yihui/rmarkdown/html-document.html) & [PDF Reports](https://bookdown.org/yihui/rmarkdown/pdf-document.html)
+2.  [HTML Slide Decks](https://bookdown.org/yihui/rmarkdown/ioslides-presentation.html) & [PowerPoint](https://bookdown.org/yihui/rmarkdown/powerpoint-presentation.html)
+3.  [Interactive Dashboards](https://rmarkdown.rstudio.com/flexdashboard/index.html)
+4.  [Books with `bookdown`](https://bookdown.org/)
+5.  [Websites with `blogdown`](https://bookdown.org/yihui/blogdown/)
+
+## Key Resources
+
+-   [RMarkdown Website with Gallery](https://rmarkdown.rstudio.com/index.html)
+
+-   Key Reference: [RMarkdown - The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)
+
+-   PDF Printing Setup: [tinytex](https://yihui.name/tinytex/)
+
+```{r eval=FALSE}
+# PDF Knitting Setup: https://yihui.name/tinytex/ 
+# install.packages("tintex")
+# tinytex::install_tinytex()
+```
+
+# Write with Markdown
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+
+Plain text.
+
+Type **bold**.
+
+Type *italics*.
+
+Type ***bold + italics***.
+
+Talk about code - the `tidyverse` is awesome
+
+**Unordered List:**
+
+-   Item 1
+-   Item 2
+
+**Ordered List:**
+
+1.  First point
+2.  Second point
+3.  More points
+
+# New Hampshire Counties {.tabset .tabset-fade .tabset-pills}
+
+## Grafton
+
+This is Grafton 
+
+## Coos
+
+This is Coos
+
+## Belknap
+
+This is Belknap County
+
+# Images 
+
+**via text section**
+
+![PSU Logo](img/PSU-logo.png){width="100px"}
+
+**image via the code chunk**   
+
+```{r, out.width="100px", echo=FALSE, fig.cap="PSU Logo"}
+knitr::include_graphics("img/PSU-logo.png")
+```
+
+# Code
+
+```{r cars}
+# Import stock prices
+stocks <- tq_get(c("TSLA", "AMZN"),
+                 get = "stock.prices",
+                 from = "2016-01-01",
+                 to = "2017-01-01")
+stocks
+```
+
+
+
+# Plots
+
+Plotting works as expected. Try changing:
+
+-   `out.height`, `out.width` and Knitting
+
+**Static plots:**
+
+```{r, fig.cap="Revenue by Category", out.height="600px"}
+g <- ggplot(data = stocks) + 
+  geom_point(mapping = aes(x = volume, y = adjusted, color = symbol))
+
+g
+  
+```
+
+**Interactive plots:**
+
+-   Use `ggplotly()`.
+
+```{r, out.height="500px", out.width="100%"}
+ggplotly(g)
+```
+
+# Tables
+
+**Static Tables:**
+
+-   `knitr` package - `knitr::kable()` - Simple to use, great with PDF
+
+```{r}
+stocks %>% head() %>% knitr::kable()
+```
+
+**Dynamic Tables:**
+
+-   Potential Gotcha: Note that this will not print with format in PDF
+
+```{r}
+stocks 
+```
+
+

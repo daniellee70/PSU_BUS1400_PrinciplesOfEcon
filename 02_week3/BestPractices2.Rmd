@@ -1,0 +1,203 @@
+---
+title: "Week 3: Best Practices 2"
+subtitle: "Ch2 Cycles in Your Sector of the Economy"
+author: "Place your name here"
+date: "2022-08-30"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+# Load packages
+library(tidyverse)
+library(tidyquant)
+library(lubridate)
+```
+
+```{r}
+# Import data
+
+# symbols
+symbols <- c("GDPC1", # real gdp
+             "", # real corporate profits
+             "PCECC96", # Real Personal Consumption Expenditures (consumer spending)
+             "PCESVC96", # consumer services
+             "PCDGCC96", # consumer durables
+             "PCNDGC96", # consumer non-durables
+             "PRFIC1", # Real Private Residential Fixed Investment (residential construction)
+             "Y033RX1Q020SBEA", # capital spending on equipment and software
+             "B009RX1Q020SBEA", # nonresidential construction
+             "", # federal government spending excluding transfer payments
+             "", # state and local government spending
+             "", # exports
+             "") # imports
+
+# Download
+data <- tq_get(symbols, 
+              get = "economic.data",
+              from = "1947-01-01")
+
+# Recession data
+Recession_Dates_tbl <- read_rds("data/Recession_Dates_tbl.rds")
+
+
+# Transform data
+data_clean <- data %>%
+    
+    group_by(symbol) %>%
+    
+    # Calculate percent change
+    mutate(change = (price / lag(price))-1)  %>%
+    mutate(text = str_glue("{date %>% quarter(type = 'year.quarter')},
+                           Growth: {change %>% scales::percent(accuracy = 0.1)}"))
+
+data_clean
+```
+
+
+
+```{r}
+# Create a custom function to plot
+
+plot_econ_series <- function(data_clean, var = "PRFIC1") {
+    
+    g <- data_clean %>%
+    
+    # Calculate percent change
+    filter(symbol %in% c("GDPC1", 
+                         var)) %>%
+    
+    # Plot
+    ggplot(aes(date, change)) +
+    geom_line(aes(color = symbol)) +
+    geom_point(aes(text = text), size = 0.1, alpha = 0) +
+    theme_tq() +
+    theme(legend.position = "bottom",
+          strip.text = element_text(size = 8),
+          panel.grid.major.y = element_blank()) +
+
+    geom_hline(yintercept = 0, color = "#18BC9C", size = 0.5, alpha = 0.7) +
+
+    # Shade for recession
+    geom_vline(data = Recession_Dates_tbl %>% filter(USREC == 1),
+               aes(xintercept = as.numeric(date)), color = "#4876FF", alpha = 0.3) +
+
+    labs(subtitle = "US Recessions in Blue Shade",
+         y = "Percent",
+         x = NULL)
+
+    # Make the plot interactive 
+    plotly::ggplotly(g, tooltip = "text")
+    
+}
+
+```
+
+
+
+# Chater Openning Questions
+
+Managers need to know:
+
+* 
+
+
+# Solution
+
+
+| your customers/products       | magnitude of spending changes | timing of spending changes  |
+|------------------------|------------------------|------------------------|
+| consumer services             | very stable                   | coincident with GDP         |
+| consumer nondurables          | stable                        | coincident with GDP         |
+| consumer durables             | volatile                      | coincident with GDP         |
+| housing construction          | very volatile                 | leads fluctuations in GDP   |
+| capital spending              | very volatile                 | lags fluctuations in GDP    |
+| govt. spending, federal       | moderate                      | not always corr. with GDP   |
+| govt. spending, state & local | stable                        | lags fluctuations in GDP    |
+| exports                       | volatile                      | not corr. with GDP          |
+| imports                       | volatile                      | varies depending on product |
+
+
+# Historical Experience
+
+```{r fig.cap="Gross Domestic Product", fig.align="center"}
+data_clean %>% plot_econ_series(var = NULL)
+```
+
+
+# Profits across the Economic Cycle
+
+
+# Consumer Spending
+
+```{r fig.cap="GDP vs Consumer Spending", fig.align="center"}
+data_clean %>% plot_econ_series(var = "PCECC96")
+```
+
+
+```{r fig.cap="GDP vs Consumer Services", fig.align="center"}
+data_clean %>% plot_econ_series(var = "PCESVC96")
+```
+
+
+```{r fig.cap="GDP vs Consumer Durables", fig.align="center"}
+data_clean %>% plot_econ_series(var = "PCDGCC96")
+```
+
+
+```{r fig.cap="GDP vs Consumer Non-Durables", fig.align="center"}
+data_clean %>% plot_econ_series(var = "PCNDGC96")
+```
+
+# Housing
+
+```{r fig.cap="GDP vs Nonresidential Construction", fig.align="center"}
+data_clean %>% plot_econ_series(var = "PRFIC1")
+```
+
+# Capital Spending
+
+
+# Government Spending
+
+
+# Exports
+
+
+# Imports
+
+
+# Economic terms
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include: 
+
+* [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+* [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+## Gross Domestic Product (GDP)
+Explain the term in your own words here.
+
+## Real versus nominal GDP
+Explain the term in your own words here.
+
+## Gross National Product (GNP)
+Explain the term in your own words here.
+
+## Recession
+Explain the term in your own words here.
+
+## Leading Indicators
+Explain the term in your own words here.
+
+# Economic events
+
+## 2007 Great recession
+Describe the event in your own words here. Include its causes and impacts on the economy and society. You may Google it and find information on the Web.
+
+
+
+

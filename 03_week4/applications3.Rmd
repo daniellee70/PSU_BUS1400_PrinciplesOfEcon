@@ -1,0 +1,41 @@
+---
+title: "Week 4: Real World Applications 3"
+subtitle: "Is a recession around the corner?"
+author: "Place your name here"
+date: "2022-09-17"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+# Load packages
+library(tidyverse) # core
+library(tidyquant) # financial analysis
+library(lubridate) # time series
+library(plotly)    # Interactive visualization
+
+# Import charts
+market_indicators_fig   <- read_rds("fig/market_indicators_fig.rds")
+economic_indicators_fig <- read_rds("fig/economic_indicators_fig.rds")
+```
+
+# Economic Dashboard {.tabset .tabset-fade}
+
+## Market Indicators
+
+```{r}
+ggplotly(market_indicators_fig)
+
+```
+
+## Economic Indicators
+
+```{r}
+ggplotly(economic_indicators_fig)
+```
+
+# What is your reading of the economy?
+Make your argument based on your analysis of the given charts.

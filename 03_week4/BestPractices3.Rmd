@@ -1,0 +1,141 @@
+---
+title: "Week 4: Best Practices 3"
+subtitle: "Ch3 How to Anticipate Recessions and Downturns"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+## Chater Openning Questions
+
+Managers need to know:
+
+-   
+
+## Summary
+
+| Causes of Recessions    | How it works                                                                                                                                                                                                                                                 | Examples |
+|----------------------|-------------------------------------|-------------|
+| monetary policy         | The Fed can slow the economy by tightening monetary policy, which decreases the money supply and/or raises interest rates.                                                                                                                                   |          |
+| supply shocks           | A sudden increase in an essential commodity can tip the economy into recession. A good example is the oil crisis of the 1970s.                                                                                                                               |          |
+| credit crunches         | Banks play a critical role in the economy by funding business operations and production and individuals for their purchases of big-ticket items like houses or cars. When loans become unavailable (credit crunches), the economy can fall into recession.   |          |
+| optimism and pessimism  | Listen to the everyday business managers to gauge the level of uncertainty in the economy. When they start sounding gloomy, a recession may be around the corner.                                                                                            |          |
+| consumer confidence     | In some economies, consumer spending plays a critical role. The United States is a good example. A sudden and wide swing in consumer confidence can influence the economy.                                                                                   |          |
+| fiscal policy           | Increased government spending, such as new highways and aircraft carriers, can stimulate the economy. The government can also use taxes to influence the economy. For example, a tax reduction would leave more money for consumers to spend and vice versa. |          |
+| foreign business cycles | A recession in an essential trading country can influence the domestic economy. For example, a Canadian recession can negatively affect the economy in the northern border regions of the United States that heavily rely on trade with Canada.              |          |
+| trade wars              | Restrictions on foreign trade reduce our exports to the foreign country and thus can be recessionary. The Great Depression is a good example.                                                                                                                |          |
+| speculative mania       | An asset price bubble and the following crash can contribute to a recession. When asset prices crash, consumers feel less wealthy and decrease spending.                                                                                                     |          |
+
+## Monetary Policy
+
+Explain how it affects the economy in your own words.
+
+What do you need to watch to gauge changes in this?
+
+## Supply Shocks
+
+Q1. Explain how it affects the economy in your own words.
+
+Q2. What do you need to watch to gauge changes in this?
+
+## Credit Crunches
+
+Q1. Explain how it affects the economy in your own words.
+
+Q2. What do you need to watch to gauge changes in this?
+
+## Waves of Optimism and Pessimism
+
+Q1. Explain how it affects the economy in your own words.
+
+Q2. What do you need to watch to gauge changes in this?
+
+## Consumer Confidence
+
+Q1. Explain how it affects the economy in your own words.
+
+Q2. What do you need to watch to gauge changes in this?
+
+## Fiscal Policy
+
+Q1. Explain how it affects the economy in your own words.
+
+Q2. What do you need to watch to gauge changes in this?
+
+## Foreign Business Cycle
+
+Q1. Explain how it affects the economy in your own words.
+
+Q2. What do you need to watch to gauge changes in this?
+
+## Trade Wars
+
+Q1. Explain how it affects the economy in your own words.
+
+Q2. What do you need to watch to gauge changes in this?
+
+## Speculative Mania
+
+Q1. Explain how it affects the economy in your own words.
+
+Q2. What do you need to watch to gauge changes in this?
+
+## Economic terms
+
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include:
+
+-   [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+-   [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+Explain the terms in your own words briefly.
+
+### Classical Economics
+
+### Keynseian Economics
+
+### Milton Friedman
+
+### The Federal Reserve Banks
+
+### Moneytary Policy
+
+### Federal Funds Rate
+
+### Time Lag
+
+### Real Interest Rates
+
+### Yield Curve
+
+### Fiscal Policy
+
+### Recession
+
+### Leading Indicators
+
+## Economic events
+
+Describe the characteristics of the following events briefly.
+
+### the 1990-1991 recession
+
+### the 2001 recession
+
+### the 1973-1975 recession
+
+### the 1960 recession
+
+### the Smoot-Hawley tariff
+
+### the great tulip craze of Holland in 1636-1637
+
+Describe the event in your own words here. Include its causes and impacts on the economy and society. You may Google it and find information on the Web.

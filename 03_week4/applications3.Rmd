@@ -38,4 +38,4 @@ ggplotly(economic_indicators_fig)
 ```
 
 # What is your reading of the economy?
-Make your argument based on your analysis of the given charts.
+Make your argument based on your analysis of the given charts. Discuss timing and depth of changes in the economic data relative to recessions in at least 50 words.

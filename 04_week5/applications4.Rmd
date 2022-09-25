@@ -1,0 +1,58 @@
+---
+title: "Week 5: Real World Applications 4"
+author: "Place your name here"
+date: "2022-09-17"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+# Load packages
+library(tidyverse) # core
+library(tidyquant) # financial analysis
+library(lubridate) # time series
+library(plotly)    # Interactive visualization
+
+# Import charts
+grappone_fig <- read_rds("fig/grappone_fig.rds")
+comptus_fig  <- read_rds("fig/comptus_fig.rds")
+bnh_fig      <- read_rds("fig/bnh_fig.rds")
+```
+
+# Economic Dashboard {.tabset .tabset-fade}
+
+## Grappone
+
+```{r}
+ggplotly(grappone_fig)
+```
+
+outputPrice = Consumer Price Index for All Urban Consumers: New Vehicles in U.S. City Average
+
+inputPrice  = Producer Price Index by Industry: New Car Dealers: New Vehicle Sales
+
+## Bank of New Hampshire
+
+```{r}
+ggplotly(bnh_fig)
+```
+
+outputPrice = Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity
+
+inputPrice  = Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity
+
+## Comptus
+
+```{r}
+ggplotly(comptus_fig)
+```
+
+outputPrice = Producer Price Index by Commodity: Machinery and Equipment: Miscellaneous Instruments
+         
+inputPrice  = Producer Price Index by Commodity: Metals and Metal Products: Nonferrous Metals
+         
+# What is happening to your client business's profit margin?
+Make your argument based on your analysis of the given charts. 

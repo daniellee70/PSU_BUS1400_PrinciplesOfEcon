@@ -1,0 +1,94 @@
+---
+title: "Week 5: Best Practices 4"
+subtitle: "Ch3 How to Anticipate Recessions and Downturns"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+## Chater Openning Questions
+
+A manager needs to monitor:
+
+
+
+
+## The facts about inflation
+
+-   Volatility:   CPI < PPI Finished Goods < PPI Intermediate Goods < PPI Crude Materials
+-   Price Growth: CPI > PPI Finished Goods > PPI Intermediate Goods > PPI Crude Materials
+-   There are thousands of specific indexes to choose from. So it is important to pick a correct price index for a specific business problem 
+
+## Inflation and federal reserve policy
+
+The Phillips Curve shows an inverse correlation between () and () using data from 1861 - 1958. It implies the Fed could achieve low unemployment at the cost of high inflation.
+
+The Phillips Curve broke down in the 1970s when workers started demanding higher wages expecting higher inflation. Higher wages pushed up the production cost, decreasing production and employment. 
+
+### Long-term growth and inflation
+
+Describe major takeaways briefly.
+
+## Business decisions and profit squeezes
+
+prices of inputs and outputs
+
+It's easier to pass on costs increases when the following is true:
+
+1. Competitors are facing the same cost increases.
+2. 
+3. Your customers can, in turn, pass the cost increases along to their customers.
+
+## Inflation clauses in long-term contracts
+
+Describe major takeaways briefly.
+
+## How accurate are our measures of inflation?
+
+Describe major takeaways briefly.
+
+## Summing up
+
+A business for whom raw materials constitute a major cost should hedge against the risk of sharp increases in the price of raw materials by:
+
+1. locking in purchase prices,
+2. 
+3. and building an early warning system.
+
+
+
+
+## Economic terms
+
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include:
+
+-   [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+-   [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+Explain the terms in your own words briefly.
+
+### Inflation
+
+### Consumer Price Index (CPI)
+
+### Producer Price Index (PPI)
+
+### The Phillips Curve
+
+### Stagflation
+
+## Economic events
+
+Describe the characteristics of the following events briefly.
+
+### The Phillips Curve in the 1970s 
+The author writes the Phillips Curve broke down in the 1970s. Elaborate.

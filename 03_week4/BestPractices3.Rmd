@@ -21,7 +21,7 @@ Managers need to know:
 
 -   
 
-## Summarysc
+## Summary
 
 | Causes of Recessions            | How it works                                                                                                                                                                                                                                                 | Associated Recessions                                                                                                                                                                |
 |-------------------|----------------------------------|--------------------|
@@ -33,7 +33,7 @@ Managers need to know:
 | fiscal policy                   | Increased government spending, such as new highways and aircraft carriers, can stimulate the economy. The government can also use taxes to influence the economy. For example, a tax reduction would leave more money for consumers to spend and vice versa. | the 1970 recession following the end of Vietnam War,                                                                                                                                 |
 | foreign business cycles         | A recession in an essential trading country can influence the domestic economy. For example, a Canadian recession can negatively affect the economy in the northern border regions of the United States that heavily rely on trade with Canada.              |                                                                                                                                                                                      |
 | trade wars                      | Restrictions on foreign trade reduce our exports to the foreign country and thus can be recessionary. The Great Depression is a good example.                                                                                                                | the Great Depression following the Smoot-Hawley tariff                                                                                                                               |
-| speculative mania               | An asset price bubble and the following crash can contribute to a recession. When asset prices crash, consumers feel less wealthy and decrease spending.                                                                                                     | Japan's depression in the 1990s following a real estate boom, the 2001 recession following the American high-tech stock market bubble, the great tulip craze of Holland in 1936-1937 |
+| speculative mania               | An asset price bubble and the following crash can contribute to a recession. When asset prices crash, consumers feel less wealthy and decrease spending.                                                                                                     | Japan's depression in the 1990s following a real estate boom, the 2001 recession following the American high-tech stock market bubble, the great tulip craze of Holland in 1636-1637 |
 
 ## Monetary Policy
 
@@ -131,8 +131,6 @@ Describe the characteristics of the following events briefly.
 ### the 2001 recession
 
 ### the 1973-1975 recession
-
-### the 1960 recession
 
 ### the Smoot-Hawley tariff
 

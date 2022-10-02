@@ -1,0 +1,104 @@
+---
+title: "Week 6: Best Practices 5"
+subtitle: "Ch5 Planning for a Downturn: Venerability and Flexibility"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+## Chater Openning Questions
+
+A manager needs to monitor:
+
+## Summary
+
+Managing through the Business Cycle
+
++------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Steps                                                      | Description                                                                                                                                                                                                                                                                         |
++============================================================+=====================================================================================================================================================================================================================================================================================+
+| Assess vulnerability to the recession                      | "How vulnerable is our company to recession or a slowdown in sales?" Assess the vulnerability in terms of magnitude and timing of slowdowns in sales using national data on the company's industry.                                                                                 |
++------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Sketch out a contingency plan for dealing with a recession | It's an one or two page plan, which can lead a manager to build flexibility into the business.                                                                                                                                                                                      |
++------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Build flexibility to cut expenses                          | A company needs the flexibility to cut costs in difficult times. A manager can build flexibility in the business by considering the following areas.                                                                                                                                |
+|                                                            |                                                                                                                                                                                                                                                                                     |
+|                                                            | -   relationships with vendors and customers                                                                                                                                                                                                                                        |
+|                                                            |     -   take-or-pay contracts                                                                                                                                                                                                                                                       |
+|                                                            |     -   the goodwill piggy bank                                                                                                                                                                                                                                                     |
+|                                                            |     -   a customer profitability analysis system                                                                                                                                                                                                                                    |
+|                                                            | -   hiring                                                                                                                                                                                                                                                                          |
+|                                                            |     -   labor contracts                                                                                                                                                                                                                                                             |
+|                                                            | -   leasing real estate                                                                                                                                                                                                                                                             |
+|                                                            | -   capital spending                                                                                                                                                                                                                                                                |
+|                                                            |     -   smaller modular investment in stages                                                                                                                                                                                                                                        |
+|                                                            | -   financing                                                                                                                                                                                                                                                                       |
+|                                                            |     -   equity, bond, bank loans                                                                                                                                                                                                                                                    |
+|                                                            |     -   paying a fee for a stand-by line of credit                                                                                                                                                                                                                                  |
+|                                                            |     -   make sure that the maturities are staggered with at least two years between maturities                                                                                                                                                                                      |
+|                                                            |     -   commercial paper vs. bond                                                                                                                                                                                                                                                   |
++------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Develop an early warning system.                           | In 1940, the Battle of Britain began as 2,400 Luftwaffe aircraft attacked England. The Royal Air Force had only 900 planes., yet they successfully defended their country from the Germans. They key to their success, was radar. The early warning system is "radar for business." |
++------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## The vunerability assessment
+
+## The contingency plan
+
+## Building flexibility into the business
+
+## Summing Up
+
+A company that learns in its contingency planning that it has limited options for cutting expenses may spend a year adding flexibility wherever it can.
+
+## Economic terms
+
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include:
+
+-   [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+-   [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+Explain the terms in your own words briefly.
+
+### North American Industry Classification System (NAICS)
+
+### Marginal Cost
+
+### Economies of Scale
+
+### Capital Goods
+
+### Equity
+
+### Bond
+
+### Bank Loans
+
+### Line of Credit
+
+### Commercial Paper
+
+## Economic events
+
+Describe the characteristics of the following events briefly.
+
+### The Jobs Bank Program of the American Autoindustry
+
+The author uses this as an anecdotal example to explain the danger of inflexible labor contract. Elaborate.
+
+### The Electric Utility Industry in the 1980s and 1990s
+
+The author uses this as an anecdotal example to advocate for smaller modular investment in stages. Elaborate.
+
+### The Penn Central Railroad in 1970
+
+The author uses this as an anecdotal example to advocate for borrowing with staggering maturities. Elaborate.

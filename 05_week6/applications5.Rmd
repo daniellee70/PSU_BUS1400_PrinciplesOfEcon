@@ -1,0 +1,117 @@
+---
+title: "Week 6: Real World Applications 5"
+author: "Place your name here"
+date: "2022-09-17"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+# Load packages
+library(tidyverse)
+library(tidyquant)
+library(lubridate)
+
+# Source function
+source("../00_scripts/plot_econ_series.R")
+```
+
+```{r results="hide"}
+# Import data
+
+# symbols
+symbols <- c("GDPC1", # real gdp
+             "DMOTRX1Q020SBEA", # Groppone
+             "DIFSRX1Q020SBEA", # Bank of New Hampshire
+             "Y033RX1Q020SBEA") # Comptus
+
+# Download
+data <- tq_get(symbols, 
+              get = "economic.data",
+              from = "1947-01-01")
+
+# Recession data
+Recession_Dates_tbl <- read_rds("../00_data/wrangled_data/Recession_Dates_tbl.rds")
+
+
+# Transform data
+data_clean <- data %>%
+    
+    group_by(symbol) %>%
+    
+    # Calculate percent change
+    mutate(change = (price / lag(price))-1)  %>%
+    mutate(text = str_glue("{date %>% quarter(type = 'year.quarter')},
+                           Growth: {change %>% scales::percent(accuracy = 0.1)}")) %>%
+    
+    filter(date > "2000-01-01")
+
+data_clean
+```
+
+# The vunerability assessment {.tabset .tabset-fade}
+
+Analyze the data for your client company's industry and answer the following questions.
+
+1.  How much have sales in the industry declined in the recession? What's the worst that has happened in the past?
+
+2.  Does the industry go into recession before, at the same time, or after the national economy goes into recession? If earlier or later, how many months of difference is there?
+
+3.  Does the industry recover from recession before, at the same time, or after the national economy? Again, what's the difference in months?
+
+4.  How long does the industry typically take to recover from a recession?
+
+## Grappone
+
+```{r}
+data_clean %>% plot_econ_series(var = "DMOTRX1Q020SBEA")
+```
+
+## Bank of New Hampshire
+
+```{r}
+data_clean %>% plot_econ_series(var = "DIFSRX1Q020SBEA")
+```
+
+## Comptus
+
+```{r}
+data_clean %>% plot_econ_series(var = "Y033RX1Q020SBEA")
+```
+
+# Building flexibility into the business {.tabset .tabset-fade}
+
+Read the client's response to the questionnaire. How can your client build flexibility into the business? Refer back to the textbook, if necessary.
+
+## Graponne
+
++---------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Question                                                                                                                        | Response from the company                                                                                                                                                                                                                                                  |
++=================================================================================================================================+============================================================================================================================================================================================================================================================================+
+| Recessions raise the risk of bankruptcy. Even less severe downturns can limit the company's growth prospects for several years. | Our liquidity is a major focus when we are preparing for a downturn as well as our inventory levels.  Cash is king in terms of getting through a downturn. You also need great relationships with your lenders -- you hope they will stick with you when times get tough.  |
+|                                                                                                                                 |                                                                                                                                                                                                                                                                            |
+| How does your company plan for a downturn?                                                                                      |                                                                                                                                                                                                                                                                            |
++---------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Bank of New Hampshire
+
++---------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Question                                                                                                                        | Response from the company                                                                                                                                                                                                                                                                                                                                                                                                    |
++=================================================================================================================================+==============================================================================================================================================================================================================================================================================================================================================================================================================================+
+| Recessions raise the risk of bankruptcy. Even less severe downturns can limit the company's growth prospects for several years. | The bank builds up loss reserves, conducts expense reviews, tries to maximize yield on assets, looks to sell less profitable assets, e.g. low yielding loans. The bank also conducts various annual stress tests and scenario analyses to identify potential problems that could arise during an adverse economic event. Corrective action is taken to mitigate these risks if the exposure is outside of acceptable ranges. |
+|                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| How does your company plan for a downturn?                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                              |
++---------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Comptus
+
++---------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
+| Question                                                                                                                        | Response from the company                                                                                                    |
++=================================================================================================================================+==============================================================================================================================+
+| Recessions raise the risk of bankruptcy. Even less severe downturns can limit the company's growth prospects for several years. | Our staffing is very light, and we utilize outsourcing when we are busy. In a downturn we can return to in house production. |
+|                                                                                                                                 |                                                                                                                              |
+| How does your company plan for a downturn?                                                                                      |                                                                                                                              |
++---------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+

@@ -19,7 +19,7 @@ library(tidyquant)
 library(lubridate)
 ```
 
-```{r}
+```{r results = "hide"}
 # Import data
 
 # symbols

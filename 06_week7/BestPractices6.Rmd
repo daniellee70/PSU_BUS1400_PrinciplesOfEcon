@@ -1,0 +1,66 @@
+---
+title: "Week 7: Best Practices 6"
+subtitle: "Ch6 The Early Warning System: Radar for Business"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+## Chater Openning Questions
+
+A manager needs to develop an early warning system that includes:
+
+## Summary
+
+Managing through the Business Cycle
+
+| Steps                         | Description                                                                                                                                                                                                  |
+|----------------|--------------------------------------------------------|
+| macroeconomic warning signals | The early warning system should include indicators for the overall economy and the relevant industry.                                                                                                        |
+| end-user information          | For example, a bottle manufacturer should watch sales of beer and soft drinks. A fabric manufacturer should watch apparel sales.                                                                             |
+| consumer sales forecast       | A company should also monitor its own clients. A manager should break out sales reports by product groups, regions, and customers to trace major surprises in sales.                                         |
+| critical cost                 | The companies that need pay the closest attention to costs are usually manufacturers, utilities, and contractors with with significant exposure to one or two raw materials with typically volatile prices.  |
+
+## Macroeconomic Warnings
+
+
+## End User Information
+
+
+## Consumer sales and forecasts
+
+
+## Cost
+
+
+## Summing Up
+
+
+## Economic terms
+
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include:
+
+-   [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+-   [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+Explain the terms in your own words briefly.
+
+### Seasonal Adjustment
+
+## Economic events
+
+Describe the characteristics of the following events briefly.
+
+### The Jobs Bank Program of the American Autoindustry
+
+The author uses this as an anecdotal example to explain the danger of inflexible labor contract. Elaborate.
+

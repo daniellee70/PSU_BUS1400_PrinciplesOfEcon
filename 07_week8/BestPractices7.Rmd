@@ -1,0 +1,92 @@
+---
+title: "Week 8: Best Practices 7"
+subtitle: "Ch7 Managing through the Business Cycle"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+## Chater Openning Questions
+
+A manager needs to:
+
+## Summary
+
+Table of possible options in a contiengency plan
+
+|                    | Expecting a downturn                                                                | During moderate downturns                                                                                               | During severe recessions                                                                                                                             |
+|-----------------|-----------------|------------------|----------------------|
+| capital spending   | reevaluate                                                                          | cut entirely or almost entirely                                                                                         | not only cut entirely, but consider selling assets                                                                                                   |
+| employment         | slow hiring                                                                         | freeze hiring, layoff generic production workers                                                                        | eliminate future-oriented positions (e.g., R&D), keep sales personnel though not at previous levels, cut all other staff areas to the maximum extent |
+| inventories        | monitor closely                                                                     | monitor closely, review for unnecessary inventory items                                                                 | the same as the left                                                                                                                                 |
+| account receivable | tighten credit terms, set up a factoring (selling account receivables) relationship | collect as rapidly as possible, on the payment side delay to the extent possible                                        | the same                                                                                                                                             |
+| financing          | secure a larger credit line, delay payments to vendors, get some long term debt     | consider stop paying dividends, keep good relationship with banks by disclosing the company's condition early and fully | the same                                                                                                                                             |
+| lines of business  |                                                                                     | shut down unprofitable operations                                                                                       | the same                                                                                                                                             |
+
+
+## Easy steps
+
+
+## Moderate steps
+
+
+## Survival steps
+
+
+## Taking advantage of recessions
+
+
+### Identifying opportunities
+
+
+### Pricing and sales strategies
+
+
+## Managing in the recovery
+
+
+## Managing in a boom
+
+
+## Summing Up
+
+
+## Economic terms
+
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include:
+
+-   [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+-   [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+Explain the terms in your own words briefly.
+
+### Accounts Receivable
+
+
+### Antitrust (page 163) - Market Structures
+
+* perfect competition
+* monopolistic competition
+* oligopoly
+* monopoly
+
+
+### Profit Maximization (page 169)
+
+
+## Economic events
+
+Describe the characteristics of the following events briefly.
+
+### The case of Washington Mutual in the summer of 2004 (page 163)
+
+### The case of the airline industry during the 2001 recession (page 164)

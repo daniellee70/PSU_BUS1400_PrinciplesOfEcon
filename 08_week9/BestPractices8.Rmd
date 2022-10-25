@@ -1,0 +1,115 @@
+---
+title: "Week 9: Best Practices 8"
+subtitle: "Ch8 Foreign Economic Cycles"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+## Chater Openning Questions
+
+A manager needs to:
+
+## Summary
+
+For a major industrialized country, the monitoring system would closely resemble that used in the United States with an addition of foreign exchange risk.
+
+For a less developed country,
+
+| Risk                  | Indicators                                                  |
+|-----------------------|-------------------------------------------------------------|
+| monetary policy       | varies depending on individual countries                    |
+| foreign exchange risk | divergence between PPP and actual exchange rate             |
+| capital control       | country's bond credit ratings and stock exchange prices     |
+| oil                   | know how dependent the country is on imported oil           |
+| commodity             | commodity price                                             |
+| trading partner risk  | know who the major trading partners are (including tourism) |
+| war or rebellion      | local press                                                 |
+
+
+
+## Monetary policy around the world
+
+
+## Supply shocks in foreign countries
+
+
+## Commodity risk in small countries
+
+
+## Trading partner risk
+
+
+## Foreign exchange risk
+
+
+## Financial crisis in foreign countries
+
+
+## War and revoluation
+
+
+## managing through the foreign business cycle
+
+
+## The monitoring system
+
+
+## Contingency plans
+
+
+## Summing Up
+
+
+
+## Economic terms
+
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include:
+
+-   [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+-   [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+Explain the terms in your own words briefly.
+
+### Foreign Exchange Rate (page 180)
+
+
+### Pegged Exchange Rate (page 180)
+
+
+### Floating Exchange Rate (page 183)
+
+
+### Currency Devalation (page 183)
+
+
+### Currency Depreciation 
+
+
+### Foreign Exchange Control (page 183)
+
+
+### Purchasing Power Parity (page 192)
+
+
+
+## Economic events
+
+Describe the characteristics of the following events briefly.
+
+### "el error de diciembre", the Mexican peso crisis of 1994 (page 183)
+
+
+### The Indonesian financial crisis of 1998 (page 184)
+
+
+### The Asian financial crisis of 1997-1998 (page 189)

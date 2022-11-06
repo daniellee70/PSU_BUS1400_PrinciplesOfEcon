@@ -1,0 +1,55 @@
+---
+title: "Week 10: Real World Applications 9"
+author: "Place your name here"
+date: "2022-09-17"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+# Load packages
+library(tidyverse) # core
+library(plotly)    # Interactive visualization
+
+# Import charts
+indicators_nh_fig   <- read_rds("../00_data/fig/indicators_nh_fig.rds")
+```
+
+# Economic Dashboard
+
+```{r}
+ggplotly(indicators_nh_fig)
+
+```
+
+# Location Quotient
+
+https://www.analyticsforeconomics.com/
+
+# Your interpretation
+
+Examine the chart above and answer the following questions in at least 200 words.
+
+-   What is the status of New Hampshire's economy now? Is it in a recession? Is a recession around the corner?
+-   How similar is New Hampshire's economy to its U.S. counterpart? Does New Hampshire go into recession every time the national economy does? How about timing? Does it lead or lag?
+-   What are top three industries in New Hampshire? How have they changed over time?
+-   What should your client company do if a recession is highly likely? The strategy depends on whether your company sells into the local market or produces in the market. Refer back to the textbook.
+
+***Place your answers here***
+
+# Business response to the questionnaire
+
+***Question to the businesses*** A regional economic cycle is not perfectly synchronized with its national counterpart, although it tends to move up and down with the national economy. In addition to the broader national economy, two other factors influence a regional economy: the national cycle of its most important industries and its internal growth cycle associated with construction swings. There are two different perspectives to consider in analyzing a regional economy: when a company sells into a distinct local market and when a company produces in a local market and sells into a national or global market.
+
+Please, discuss how the regional economy affects your business and what you do in response.
+
+***Response from businesses***
+
+| Business              | Response from Business                                                                                                                                                                                                                                                                                     |
+|------------|-----------------------------------------------------------|
+| Graponne              | We are a regional business, so we are more impacted by what is going on in northern New England.  From my perspective, the '08-'09 recession was not as bad in New England as was the '90-'92 downturn.  New Hampshire was hit much harder in the early '90's.  Many of NH's largest banks failed in 1992, |
+| Bank of New Hampshire | Our primary operating area is NH, and to a lesser extent all of New England, so regional economic cycles are important. We monitor economic data on the state and regional level -- Fed in Boston puts out excellent information -- and respond accordingly,                                               |
+| Comptus               | We have no direct regional sales. 50%+ of our revenue is from International sales. Almost all domestic sales are through large distributors, so we have very limited visibility to regional activity.                                                                                                      |

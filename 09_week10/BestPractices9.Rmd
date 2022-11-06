@@ -1,0 +1,99 @@
+---
+title: "Week 10: Best Practices 9"
+subtitle: "Ch9 Regional Economic Cycles: Your Local Economy"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+## Chapter Opening Questions
+
+A business manager, to assess the risk of a regional recession, needs to monitor
+
+## Summary
+
+Although a regional economic cycle is not perfectly synchronized with its national counterpart, it tends to move up and down with the national economy. In addition to the broader national economy, two other factors influence a regional economy: the national cycle of its most important industries and its internal growth cycle associated with construction swings.
+
+There are two different perspectives to consider in analyzing a regional economy: when a company sells into a distinct local market and when a company primarily produces in a local market and sells into a national or global market.
+
+## Regional production structure
+
+## Internal regional cycles
+
+## \* What drives long-term regional growth?
+
+## Economic policy
+
+## \* Economic Policy for Growth
+
+## Production in a regional economy
+
+## A regional early warning system
+
++---------------------------------+----------------------------------------------------------------------------------------------------------------------+
+|                                 | indicators                                                                                                           |
++=================================+======================================================================================================================+
+| national economy                |                                                                                                                      |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------+
+| national cycles of the industry | national automobile sales for car dealers                                                                            |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------+
+| local economy                   | 1.  nonfarm payroll employment available for states, metropolitan areas, and counties,                               |
+|                                 | 2.  personal income is more appropriate for historical research for its time lag and frequent and radical revisions, |
+|                                 | 3.  state income tax, especially withholding                                                                         |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------+
+| population and migration        | housing permits, drivers licenses                                                                                    |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------+
+| consumer spending               | state sales tax: drill down to exclude construction materials                                                        |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------+
+|                                 |                                                                                                                      |
++---------------------------------+----------------------------------------------------------------------------------------------------------------------+
+
+## Managing in the regional business cycle
+
+Dealing with a regional downturn
+
++----------------------------------------------+------------------------------------------------------------------------------------+----------------------------------------------------------+
+|                                              | the local economy is similar to the national economy                               | the local economy is different from the national economy |
++==============================================+====================================================================================+==========================================================+
+| a company selling into the local market      | Follow the pattern described in chapter 7 with no additional local considerations. | -   Sell outside the region                              |
++----------------------------------------------+------------------------------------------------------------------------------------+----------------------------------------------------------+
+| a company only producing in the local market | Follow the pattern described in chapter 7 with no additional local considerations. | -   Lock in long-term lease rates                        |
+|                                              |                                                                                    |                                                          |
+|                                              |                                                                                    | -   Buy the real estate the company has been leasing     |
+|                                              |                                                                                    |                                                          |
+|                                              |                                                                                    | -   Enter into long-term contracts with local vendors    |
++----------------------------------------------+------------------------------------------------------------------------------------+----------------------------------------------------------+
+
+## 
+
+## Economic terms
+
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include:
+
+-   [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+-   [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+Explain the terms in your own words briefly.
+
+### Location Quotient (page 205)
+
+### Leakages (page 212)
+
+### Marginal Cost (page 219)
+
+## Economic events
+
+Describe the characteristics of the following events briefly.
+
+### the case of Idaho in 1986 (page 211)
+
+### the case of Hawaii in the mid-1990s (page 215)

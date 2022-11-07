@@ -1,0 +1,25 @@
+---
+title: "Week 11: Real World Applications 10"
+author: "Place your name here"
+date: "2022-09-17"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+Assume Daewoo, a hypothetical oil extraction company, has the following cost structure. It spends:
+
+•	$40/barrel on labor costs, raw materials, energy, and
+•	$35/barrel on interest, depreciation, insurance, and administrative staff expense.
+
+Read the textbook carefully, and answer the following questions.
+
+* A recession hits, the market price of crude oil falls to $50 per barrel, and the profitability takes a hit. Should Daewook keep running the mine? Elaborate.
+* Russia invades Ukraine, the market price shoots up well above $100 per barrel, and competitors announce new expansion plans. Should Daewoo add the new capacity? Elaborate.
+
+***Place your answer here.***

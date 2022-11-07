@@ -1,0 +1,79 @@
+---
+title: "Week 11: Best Practices 10"
+subtitle: "Ch10 Industry Cycles: Be Prepared for Trouble in Your Sector of the Economy"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+## Chapter Opening Questions
+
+A business manager in a capital-intensive industry needs to monitor its own industry cycles because they routinely experience ().
+
+## Summary
+
+
+
+## Why capital-intensive industries are different
+
+
+Elements that make capital-intensive industries prone to overbuilding:
+
+-   high overhead 
+-   long lead time to put new capacity in place
+-   low rates of depreciation 
+
+A hypothetical example illustrating how the cost structure could induce huge swings in prices and profitability.
+
+|                                              | mining company (VC = \$25/ton, FC = \$20/ton)                                                                                                                            | strawberry importing company (VC = \$40/pound, FC = \$5/pound)                                                                       |
+|------------------|------------------------------|------------------------|
+| When the price is above \$45                 | keep producing because it is profitable                                                                                                                                  | keep producing because it is profitable                                                                                              |
+| When the price dips below \$45 in a downturn | Little change to production. There is little flexibility because much of the cost is fixed. The company keeps operating as long as the price is not lower than VC, \$25. | Decreased production. The company is flexible because much of the cost is variable. For example, it can cut production with layoffs. |
+
+## The early warning system for capital-intensive industries
+
+
+## Managing through the industry cycle
+
+Think contrarian.
+
+|                                                                     | A manager should:                                                                                                                                                                                           |
+|------------------------|------------------------------------------------|
+| When prices rise and competitors announce new expansion plans       | Stop adding new capacity. Sock away cash and wait for the industry's over-expansion to play out.                                                                                                            |
+| When writers gather up all the bad news at the bottom of the market | Pick up new capacity as troubled competitors offer up equipment and facilities at discounts. Do not move too quickly and wait for real distress by monitoring the financial conditions of weak competitors. |
+
+
+## Summing up
+
+
+## Economic terms
+
+Explan each of the following terms in your own words. The author explains the terms in the textbook. If necessary, you may also Google the term on the Web. Good resources include:
+
+-   [The Economist](https://www.economist.com/economics-a-to-z?utm_medium=cpc.adword.pd&utm_source=google&utm_campaign=a.22brand_pmax&utm_content=conversion.direct-response.anonymous&gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE2IxWRvG7BsEouDDKf1eZNsf2pkf-LVH0DpiNau-Yoa97rLRqujj_YaAvDCEALw_wcB&gclsrc=aw.ds)
+-   [Fun economic videos](https://www.youtube.com/user/mjmfoodie)
+
+Explain the terms in your own words briefly.
+
+### Variable Cost (page 222)
+
+### Fixed Cost or Overhead (page 223)
+
+### Economic Depreciation (page 227)
+
+## Economic events
+
+Describe the characteristics of the following events briefly.
+
+### the case of high oil prices in 2022 
+
+

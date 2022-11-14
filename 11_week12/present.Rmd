@@ -1,0 +1,60 @@
+---
+title: "Navigating the Economic Cycles"
+subtitle: "Prepared for company name"
+author: "Place your name"
+date: "2022-11-13"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+# Load packages
+library(tidyverse) # core
+library(plotly)    # Interactive visualization
+
+# Import charts
+US_indicators_fig <- read_rds("../00_data/fig/US_indicators_fig.rds")
+nh_indicators_fig   <- read_rds("../00_data/fig/nh_indicators_fig.rds")
+Groppone_fig <- read_rds("../00_data/fig/Groppone_fig.rds")
+BNH_fig <- read_rds("../00_data/fig/BNH_fig.rds")
+Comptus_fig <- read_rds("../00_data/fig/Comptus_fig.rds")
+```
+
+## About the Company
+
+Place your company information here.
+
+## U.S Economy: Is Recession coming?
+
+```{r fig.height=5}
+ggplotly(US_indicators_fig)
+```
+
+
+## U.S Economy: Survey of Professional Forecasters
+
+[Survey of Professional Forecasters
+](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters)
+
+Use the latest November report, which is scheduled to be released on 11/14/2022 at 10 AM.
+
+## National Cycles of the Industry
+
+```{r}
+ggplotly(Groppone_fig)
+```
+
+
+## How is the economy in New Hampshire?
+
+```{r}
+ggplotly(nh_indicators_fig)
+```
+
+
+## Managing through the Business Cycle
+
+Your suggestions go here
+
+

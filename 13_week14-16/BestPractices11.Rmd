@@ -1,0 +1,52 @@
+---
+title: "Week 14: Best Practices 11"
+subtitle: "The Course Summary"
+author: "Place your name here"
+date: "2022-09-17"
+output: 
+  html_document: 
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+Write one key takeaway per chapter. Write at least 100 words for each chapter summary.
+
+
+
+## Ch1 It’s Not Just about Forecasting
+
+
+## Ch2 Cycles in Your Sector of the Economy
+
+
+## Ch3 How to Anticipate Recessions and Downturns
+
+
+## Ch4 Inflation: Recession Triggers and profit Squeezes
+
+
+## Ch5 Planning for a Downturn: Venerability and Flexibility
+
+
+## Ch6 The Early Warning System: Radar for Business
+
+
+## Ch7 Managing through the Business Cycle
+
+
+## Ch8 Foreign Economic Cycles
+
+
+## Ch9 Regional Economic Cycles: Your Local Economy
+
+
+## Ch10 Industry Cycles: Be Prepared for Trouble in Your Sector of the Economy
+
+
+

@@ -14,82 +14,14 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 # Load packages
-library(tidyverse)
-library(tidyquant)
-library(lubridate)
+library(tidyverse) # core
+library(tidyquant) # financial analysis
+library(lubridate) # time series
+library(plotly)    # Interactive visualization
+
+# Import charts
+industry_indicators_fig   <- read_rds("../00_data/fig/industry_indicators_fig.rds")
 ```
-
-```{r results = "hide"}
-# Import data
-
-# symbols
-symbols <- c("GDPC1", # real gdp
-             "DMOTRX1Q020SBEA", # Groppone
-             "DIFSRX1Q020SBEA", # Bank of New Hampshire
-             "Y033RX1Q020SBEA") # Comptus
-
-# Download
-data <- tq_get(symbols, 
-              get = "economic.data",
-              from = "1947-01-01")
-
-# Recession data
-Recession_Dates_tbl <- read_rds("data/Recession_Dates_tbl.rds")
-
-
-# Transform data
-data_clean <- data %>%
-    
-    group_by(symbol) %>%
-    
-    # Calculate percent change
-    mutate(change = (price / lag(price))-1)  %>%
-    mutate(text = str_glue("{date %>% quarter(type = 'year.quarter')},
-                           Growth: {change %>% scales::percent(accuracy = 0.1)}"))
-
-data_clean
-```
-
-
-
-```{r}
-# Create a custom function to plot
-
-plot_econ_series <- function(data_clean, var = "PRFIC1") {
-    
-    g <- data_clean %>%
-    
-    # Calculate percent change
-    filter(symbol %in% c("GDPC1", 
-                         var)) %>%
-    
-    # Plot
-    ggplot(aes(date, change)) +
-    geom_line(aes(color = symbol)) +
-    geom_point(aes(text = text), size = 0.1, alpha = 0) +
-    theme_tq() +
-    theme(legend.position = "bottom",
-          strip.text = element_text(size = 8),
-          panel.grid.major.y = element_blank()) +
-
-    geom_hline(yintercept = 0, color = "#18BC9C", size = 0.5, alpha = 0.7) +
-
-    # Shade for recession
-    geom_vline(data = Recession_Dates_tbl %>% filter(USREC == 1),
-               aes(xintercept = as.numeric(date)), color = "#4876FF", alpha = 0.3) +
-
-    labs(subtitle = "US Recessions in Blue Shade",
-         y = "Percent",
-         x = NULL)
-
-    # Make the plot interactive 
-    plotly::ggplotly(g, tooltip = "text")
-    
-}
-
-```
-
-
 
 # Analyze the data for your client with respect to
 
@@ -99,9 +31,11 @@ plot_econ_series <- function(data_clean, var = "PRFIC1") {
 
 of downturns in sale.
 
-# Groppone
+# Make a plot
 
-```{r}
-data_clean %>% plot_econ_series(var = "DMOTRX1Q020SBEA")
+```{r fig.height=6}
+ggplotly(industry_indicators_fig)
 ```
+
+
 

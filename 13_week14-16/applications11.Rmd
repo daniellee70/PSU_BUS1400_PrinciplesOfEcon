@@ -1,0 +1,22 @@
+---
+title: "Week 14: Real World Applications 11"
+author: "Place your name here"
+date: "2022-09-17"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+```
+
+
+## Summarize article
+Read the assigned Forbes article and summarize in at least 100 words.
+
+
+
+## Make connection
+Reflect on what we learned in the course, find at least one chapter in the textbook where we discuss the related topic, and explain how the chapter(s) is related to the reported event in the article. Do this in at least 100 words.

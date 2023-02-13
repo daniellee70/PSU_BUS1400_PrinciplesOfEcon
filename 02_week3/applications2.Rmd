@@ -1,8 +1,7 @@
 ---
-title: "Week 3: Real World Applications 2"
+title: "Real World Applications 2"
 subtitle: "Place your Company here"
 author: "Place your name here"
-date: "2022-08-30"
 output: 
   html_document: 
     toc: yes

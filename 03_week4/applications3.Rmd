@@ -18,8 +18,8 @@ library(lubridate) # time series
 library(plotly)    # Interactive visualization
 
 # Import charts
-market_indicators_fig   <- read_rds("fig/market_indicators_fig.rds")
-economic_indicators_fig <- read_rds("fig/economic_indicators_fig.rds")
+market_indicators_fig   <- read_rds("../00_data/fig/market_indicators_fig.rds")
+economic_indicators_fig <- read_rds("../00_data/fig/economic_indicators_fig.rds")
 ```
 
 # Economic Dashboard {.tabset .tabset-fade}

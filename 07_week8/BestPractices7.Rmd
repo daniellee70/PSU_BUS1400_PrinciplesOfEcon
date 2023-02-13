@@ -1,8 +1,6 @@
 ---
-title: "Week 8: Best Practices 7"
+title: "Best Practices 7"
 subtitle: "Ch7 Managing through the Business Cycle"
-author: "Place your name here"
-date: "2022-09-17"
 output: 
   html_document: 
     toc: yes

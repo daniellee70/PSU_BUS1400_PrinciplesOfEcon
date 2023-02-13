@@ -1,8 +1,6 @@
 ---
-title: "Week 11: Best Practices 10"
+title: "Best Practices 10"
 subtitle: "Ch10 Industry Cycles: Be Prepared for Trouble in Your Sector of the Economy"
-author: "Place your name here"
-date: "2022-09-17"
 output: 
   html_document: 
     toc: yes

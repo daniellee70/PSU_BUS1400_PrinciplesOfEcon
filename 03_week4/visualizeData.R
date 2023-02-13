@@ -84,7 +84,7 @@ market_indicators_fig <- market_indicators_tbl %>%
 
 ggplotly(market_indicators_fig)
 
-write_rds(market_indicators_fig, "fig/market_indicators_fig.rds")
+write_rds(market_indicators_fig, "00_data/fig/market_indicators_fig.rds")
 
 
 economic_indicators_tbl <- list(Inflation_tbl %>% rename(Inflation = value),
@@ -134,7 +134,7 @@ economic_indicators_fig <- economic_indicators_tbl %>%
 
 ggplotly(economic_indicators_fig)
 
-write_rds(economic_indicators_fig, "fig/economic_indicators_fig.rds")
+write_rds(economic_indicators_fig, "00_data/fig/economic_indicators_fig.rds")
 
 
 ## 1.2 Plot each series separate ----

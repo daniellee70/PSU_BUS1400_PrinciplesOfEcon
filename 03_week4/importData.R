@@ -53,7 +53,7 @@ download_and_clean_VIX <- function() {
 
 VIX_tbl <- download_and_clean_VIX()
 
-write_rds(VIX_tbl, "03_week4/data/VIX_tbl.rds")
+write_rds(VIX_tbl, "00_data/wrangled_data/VIX_tbl.rds")
 
 ## * 10 Year US Treasury Yield ----
 
@@ -85,7 +85,7 @@ download_and_clean_Treasury10_Yield <- function() {
 
 Treasury10_Yield_tbl <- download_and_clean_Treasury10_Yield()
 
-write_rds(Treasury10_Yield_tbl, "03_week4/data/Treasury10_Yield_tbl.rds")
+write_rds(Treasury10_Yield_tbl, "00_data/wrangled_data/Treasury10_Yield_tbl.rds")
 
 ## * Yield Spread ----
 
@@ -114,7 +114,7 @@ download_and_clean_Yield_Spread <- function() {
 
 Yield_Spread_tbl <- download_and_clean_Yield_Spread()
 
-write_rds(Yield_Spread_tbl, "03_week4/data/Yield_Spread_tbl.rds")
+write_rds(Yield_Spread_tbl, "00_data/wrangled_data/Yield_Spread_tbl.rds")
 
 
 ## * Home Prices ----
@@ -143,7 +143,7 @@ download_and_clean_Home_Price <- function() {
 
 Home_Price_tbl <- download_and_clean_Home_Price()
 
-write_rds(Home_Price_tbl, "03_week4/data/Home_Price_tbl.rds")
+write_rds(Home_Price_tbl, "00_data/wrangled_data/Home_Price_tbl.rds")
 
 
 
@@ -167,7 +167,7 @@ download_and_clean_Recession_Dates <- function() {
 
 Recession_Dates_tbl <- download_and_clean_Recession_Dates()
 
-write_rds(Recession_Dates_tbl, "03_week4/data/Recession_Dates_tbl.rds")
+write_rds(Recession_Dates_tbl, "00_data/wrangled_data/Recession_Dates_tbl.rds")
 
 ## * Inflation ----
 
@@ -196,7 +196,7 @@ download_and_clean_Inflation <- function() {
 
 Inflation_tbl <- download_and_clean_Inflation()
 
-write_rds(Inflation_tbl, "03_week4/data/Inflation_tbl.rds")
+write_rds(Inflation_tbl, "00_data/wrangled_data/Inflation_tbl.rds")
 
 ## * Unemployment ----
 
@@ -222,7 +222,7 @@ download_and_clean_Unemployment_Rate <- function() {
 
 Unemployment_Rate_tbl <- download_and_clean_Unemployment_Rate()
 
-write_rds(Unemployment_Rate_tbl, "03_week4/data/Unemployment_Rate_tbl.rds")
+write_rds(Unemployment_Rate_tbl, "00_data/wrangled_data/Unemployment_Rate_tbl.rds")
 
 ## * Economic Expansion ----
 
@@ -249,7 +249,7 @@ download_and_clean_GDP_Growth <- function() {
 
 GDP_Growth_tbl <- download_and_clean_GDP_Growth()
 
-write_rds(GDP_Growth_tbl, "03_week4/data/GDP_Growth_tbl.rds")
+write_rds(GDP_Growth_tbl, "00_data/wrangled_data/GDP_Growth_tbl.rds")
 
 ## * Consumer Sentiment ----
 
@@ -274,4 +274,4 @@ download_and_clean_Consumer_Sentiment <- function() {
 
 Consumer_Sentiment_tbl <- download_and_clean_Consumer_Sentiment()
 
-write_rds(Consumer_Sentiment_tbl, "03_week4/data/Consumer_Sentiment_tbl.rds")
+write_rds(Consumer_Sentiment_tbl, "00_data/wrangled_data/Consumer_Sentiment_tbl.rds")

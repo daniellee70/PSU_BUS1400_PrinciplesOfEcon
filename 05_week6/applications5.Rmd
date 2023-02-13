@@ -1,5 +1,5 @@
 ---
-title: "Week 6: Real World Applications 5"
+title: "Real World Applications 5"
 author: "Place your name here"
 date: "2022-09-17"
 output: html_document
@@ -19,7 +19,6 @@ library(plotly)    # Interactive visualization
 # Import charts
 industry_indicators_fig   <- read_rds("../00_data/fig/industry_indicators_fig.rds")
 ```
-
 
 # The vunerability assessment {.tabset .tabset-fade}
 
@@ -41,7 +40,6 @@ Analyze the data for your client company's industry and answer the following que
 
 ***Place your answer here***
 
-
 ```{r fig.height=6}
 ggplotly(industry_indicators_fig)
 ```
@@ -55,7 +53,7 @@ How does your company plan for a downturn?
 ***Response from businesses***
 
 | Business              | Response from Business                                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------------|--------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | Graponne              | Our liquidity is a major focus when we are preparing for a downturn as well as our inventory levels.  Cash is king in terms of getting through a downturn. You also need great relationships with your lenders -- you hope they will stick with you when times get tough.                                                                                                                                                    |
 | Bank of New Hampshire | The bank builds up loss reserves, conducts expense reviews, tries to maximize yield on assets, looks to sell less profitable assets, e.g. low yielding loans. The bank also conducts various annual stress tests and scenario analyses to identify potential problems that could arise during an adverse economic event. Corrective action is taken to mitigate these risks if the exposure is outside of acceptable ranges. |
 | Comptus               | Our staffing is very light, and we utilize outsourcing when we are busy. In a downturn we can return to in house production.                                                                                                                                                                                                                                                                                                 |

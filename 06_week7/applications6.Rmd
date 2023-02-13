@@ -1,5 +1,5 @@
 ---
-title: "Week 7: Real World Applications 6"
+title: "Real World Applications 6"
 author: "Place your name here"
 date: "2022-09-17"
 output: html_document

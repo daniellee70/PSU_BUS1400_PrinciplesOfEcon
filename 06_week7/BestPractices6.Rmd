@@ -1,8 +1,7 @@
 ---
-title: "Week 7: Best Practices 6"
+title: "Best Practices 6"
 subtitle: "Ch6 The Early Warning System: Radar for Business"
 author: "Place your name here"
-date: "2022-09-17"
 output: 
   html_document: 
     toc: yes

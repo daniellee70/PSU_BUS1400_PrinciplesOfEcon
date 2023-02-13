@@ -1,7 +1,6 @@
 ---
 title: "Week 8: Real World Applications 7"
 author: "Place your name here"
-date: "2022-09-17"
 output: html_document
 editor_options: 
   chunk_output_type: console

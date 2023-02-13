@@ -1,7 +1,6 @@
 ---
 title: "Week 10: Real World Applications 9"
 author: "Place your name here"
-date: "2022-09-17"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -15,7 +14,7 @@ library(tidyverse) # core
 library(plotly)    # Interactive visualization
 
 # Import charts
-indicators_nh_fig   <- read_rds("../00_data/fig/indicators_nh_fig.rds")
+indicators_nh_fig   <- read_rds("../00_data/fig/nh_indicators_fig.rds")
 ```
 
 # Economic Dashboard
@@ -27,7 +26,7 @@ ggplotly(indicators_nh_fig)
 
 # Location Quotient
 
-https://www.analyticsforeconomics.com/
+<https://www.analyticsforeconomics.com/>
 
 # Your interpretation
 
@@ -49,7 +48,7 @@ Please, discuss how the regional economy affects your business and what you do i
 ***Response from businesses***
 
 | Business              | Response from Business                                                                                                                                                                                                                                                                                     |
-|------------|-----------------------------------------------------------|
+|----------------|--------------------------------------------------------|
 | Graponne              | We are a regional business, so we are more impacted by what is going on in northern New England.  From my perspective, the '08-'09 recession was not as bad in New England as was the '90-'92 downturn.  New Hampshire was hit much harder in the early '90's.  Many of NH's largest banks failed in 1992, |
 | Bank of New Hampshire | Our primary operating area is NH, and to a lesser extent all of New England, so regional economic cycles are important. We monitor economic data on the state and regional level -- Fed in Boston puts out excellent information -- and respond accordingly,                                               |
 | Comptus               | We have no direct regional sales. 50%+ of our revenue is from International sales. Almost all domestic sales are through large distributors, so we have very limited visibility to regional activity.                                                                                                      |

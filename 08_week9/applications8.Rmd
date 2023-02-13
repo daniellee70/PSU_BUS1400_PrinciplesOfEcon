@@ -1,7 +1,6 @@
 ---
 title: "Week 9: Real World Applications 8"
 author: "Place your name here"
-date: "2022-09-17"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -20,6 +19,7 @@ Daewoo is an American automobile manufacturing company that makes cars in the U.
 
 What if, instead, Daewoo made cars in the U.K. to sell in the U.S. market? How would your answer above change? Elaborate.  
 
+***Place your answer here***
 
 
 

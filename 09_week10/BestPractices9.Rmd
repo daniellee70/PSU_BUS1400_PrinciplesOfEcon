@@ -1,8 +1,6 @@
 ---
-title: "Week 10: Best Practices 9"
+title: "Best Practices 9"
 subtitle: "Ch9 Regional Economic Cycles: Your Local Economy"
-author: "Place your name here"
-date: "2022-09-17"
 output: 
   html_document: 
     toc: yes

@@ -1,8 +1,6 @@
 ---
-title: "Week 9: Best Practices 8"
+title: "Best Practices 8"
 subtitle: "Ch8 Foreign Economic Cycles"
-author: "Place your name here"
-date: "2022-09-17"
 output: 
   html_document: 
     toc: yes

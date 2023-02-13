@@ -26,7 +26,7 @@ ggplotly(indicators_nh_fig)
 
 # Location Quotient
 
-<https://www.analyticsforeconomics.com/>
+<https://www.danielleeconsulting.com/>
 
 # Your interpretation
 

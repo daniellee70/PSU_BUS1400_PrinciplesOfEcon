@@ -1,8 +1,7 @@
 ---
 title: "Week 5: Best Practices 4"
-subtitle: "Ch3 How to Anticipate Recessions and Downturns"
+subtitle: "Ch4 Inflation: Recession Triggers and Profit Squeezes"
 author: "Place your name here"
-date: "2022-09-17"
 output: 
   html_document: 
     toc: yes

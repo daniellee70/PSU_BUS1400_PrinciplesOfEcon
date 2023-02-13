@@ -1,8 +1,7 @@
 ---
-title: "Week 4: Real World Applications 3"
+title: "Real World Applications 3"
 subtitle: "Is a recession around the corner?"
 author: "Place your name here"
-date: "2022-09-17"
 output: html_document
 editor_options: 
   chunk_output_type: console

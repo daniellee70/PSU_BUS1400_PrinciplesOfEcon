@@ -14,44 +14,38 @@ library(tidyverse) # core
 library(tidyquant) # financial analysis
 library(lubridate) # time series
 library(plotly)    # Interactive visualization
+library(patchwork) # rearranging multiple plots
 
 # Import charts
-grappone_fig <- read_rds("fig/grappone_fig.rds")
-comptus_fig  <- read_rds("fig/comptus_fig.rds")
-bnh_fig      <- read_rds("fig/bnh_fig.rds")
+input_output_price_fig <- read_rds("../00_data/fig/input_output_price_fig.rds")
+
 ```
 
-# Economic Dashboard {.tabset .tabset-fade}
+         
+# What is happening to your client business's profit margin?
+Make your argument based on your analysis of the given charts. 
 
-## Grappone
+**Place your answer here**
 
 ```{r}
-ggplotly(grappone_fig)
+ggplotly(input_output_price_fig)
+
 ```
+
+***Grappoone***
 
 outputPrice = Consumer Price Index for All Urban Consumers: New Vehicles in U.S. City Average
 
 inputPrice  = Producer Price Index by Industry: New Car Dealers: New Vehicle Sales
 
-## Bank of New Hampshire
-
-```{r}
-ggplotly(bnh_fig)
-```
+***Bank of New Hampshire***
 
 outputPrice = Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity
 
 inputPrice  = Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity
 
-## Comptus
-
-```{r}
-ggplotly(comptus_fig)
-```
+***Comptus***
 
 outputPrice = Producer Price Index by Commodity: Machinery and Equipment: Miscellaneous Instruments
-         
+
 inputPrice  = Producer Price Index by Commodity: Metals and Metal Products: Nonferrous Metals
-         
-# What is happening to your client business's profit margin?
-Make your argument based on your analysis of the given charts. 

@@ -10,14 +10,12 @@ editor_options:
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
-None of our client companies operate in a foreign country. They don't sell into a foreign market. Nor do they manufacture in a foreign market. So we will use a hypothetical manufacturing company, Daewoo, for the assignment.
-
-Daewoo is an American automobile manufacturing company that makes cars in the U.S. and sells in the U.K. market. Assume that a majority of its revenue comes from the U.K. market. Read the attached article, and answer the following questions.
+Let's use a hypothetical manufacturing company, Daewoo, for the assignment. Daewoo is an American automobile manufacturing company that makes cars in the U.S. and sells in the U.K. market. Assume that a majority of its revenue comes from the U.K. market. Read the attached article, and answer the following questions.
 
 * Monetary Policy: Did the Bank of England increase or decrease interest rates? What is the purpose of the policy move, and what is its risk? How would it impact Daewoo's profits? What should the company do?
 * Foreign Exchange Risk: Is the British Pound increasing or decreasing in value against the U.S. Dollar? What would that mean for Daewoo's profits? What should the company do?
 
-What if, instead, Daewoo made cars in the U.K. to sell in the U.S. market? How would your answer above change? Elaborate.  
+What if Daewoo made cars in the U.K. to sell in the U.S. market? How would your answer above change? Elaborate.  
 
 ***Place your answer here***
 

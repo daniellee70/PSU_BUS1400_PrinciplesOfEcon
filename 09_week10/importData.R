@@ -70,7 +70,7 @@ indicator_desc <- as_labeller(
       `Permits_1unit` = "New Private Housing Units Authorized by Building Permits: 1-Unit Structures for New Hampshire"))
 
 
-indicators_nh_fig <- indicators_tbl %>%
+nh_indicators_fig <- indicators_tbl %>%
 
     mutate(value = round(value, 1)) %>%
 
@@ -91,7 +91,7 @@ indicators_nh_fig <- indicators_tbl %>%
     theme(panel.grid.major.x = element_blank(),
           panel.grid.major.y = element_blank())
 
-ggplotly(indicators_nh_fig)
+ggplotly(nh_indicators_fig)
 
-write_rds(indicators_nh_fig, "00_data/fig/indicators_nh_fig.rds")
+write_rds(nh_indicators_fig, "00_data/fig/nh_indicators_fig.rds")
 

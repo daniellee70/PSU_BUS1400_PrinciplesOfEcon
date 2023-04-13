@@ -19,6 +19,6 @@ Assume Daewoo, a hypothetical oil extraction company, has the following cost str
 Read the textbook carefully, and answer the following questions.
 
 * A recession hits, the market price of crude oil falls to $50 per barrel, and the profitability takes a hit. Should Daewook keep running the mine? Elaborate.
-* Russia invades Ukraine, the market price shoots up well above $100 per barrel, and competitors announce new expansion plans. Should Daewoo add the new capacity? Elaborate.
+* China's reopening started impacting the global economy, increasing the oil demand. As a result, the market price shoots up well above $100 per barrel, and all its competitors announce new expansion plans. Should Daewoo add the new capacity? Elaborate.
 
 ***Place your answer here.***
